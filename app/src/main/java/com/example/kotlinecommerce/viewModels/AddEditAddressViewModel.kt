@@ -7,7 +7,16 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-
+import com.example.kotlinecommerce.ShoppingApplication
+import com.example.kotlinecommerce.data.Result
+import com.example.kotlinecommerce.data.ShoppingAppSessionManager
+import com.example.kotlinecommerce.data.UserData
+import com.example.kotlinecommerce.data.utils.AddObjectStatus
+import com.example.kotlinecommerce.data.utils.StoreDataStatus
+import com.example.kotlinecommerce.getAddressId
+import com.example.kotlinecommerce.isPhoneValid
+import com.example.kotlinecommerce.isZipCodeValid
+import com.example.kotlinecommerce.ui.AddAddressViewErrors
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 
