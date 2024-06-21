@@ -1,7 +1,6 @@
 package com.example.kotlinecommerce
 
 import android.app.Application
-import com.example.kotlinecommerce.ServiceLocator
 import com.example.kotlinecommerce.data.source.repository.AuthRepoInterface
 import com.example.kotlinecommerce.data.source.repository.ProductsRepoInterface
 
