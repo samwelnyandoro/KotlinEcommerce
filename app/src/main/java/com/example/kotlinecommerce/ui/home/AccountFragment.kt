@@ -9,6 +9,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import com.example.kotlinecommerce.R
+import com.example.kotlinecommerce.databinding.FragmentAccountBinding
+import com.example.kotlinecommerce.ui.loginSignup.LoginSignupActivity
+import com.example.kotlinecommerce.viewModels.HomeViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 

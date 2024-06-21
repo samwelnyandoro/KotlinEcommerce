@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.viewbinding.ViewBinding
+import com.example.kotlinecommerce.ui.MyOnFocusChangeListener
+import com.example.kotlinecommerce.viewModels.AuthViewModel
 
 
 abstract class LoginSignupBaseFragment<VBinding : ViewBinding> : Fragment() {

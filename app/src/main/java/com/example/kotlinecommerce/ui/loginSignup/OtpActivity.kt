@@ -6,6 +6,12 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.kotlinecommerce.R
+import com.example.kotlinecommerce.data.UserData
+import com.example.kotlinecommerce.databinding.ActivityOtpBinding
+import com.example.kotlinecommerce.ui.OTPStatus
+import com.example.kotlinecommerce.ui.launchHome
+import com.example.kotlinecommerce.viewModels.OtpViewModel
 import com.google.android.material.snackbar.Snackbar
 
 

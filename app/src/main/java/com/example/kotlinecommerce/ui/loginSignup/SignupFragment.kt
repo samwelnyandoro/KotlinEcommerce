@@ -7,6 +7,12 @@ import android.text.style.ClickableSpan
 import android.view.View
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
+import com.example.kotlinecommerce.EMAIL_ERROR_TEXT
+import com.example.kotlinecommerce.MOB_ERROR_TEXT
+import com.example.kotlinecommerce.R
+import com.example.kotlinecommerce.data.utils.SignUpErrors
+import com.example.kotlinecommerce.databinding.FragmentSignupBinding
+import com.example.kotlinecommerce.ui.SignUpViewErrors
 
 
 class SignupFragment : LoginSignupBaseFragment<FragmentSignupBinding>() {
