@@ -6,6 +6,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.example.kotlinecommerce.ShoppingApplication
+import com.example.kotlinecommerce.data.UserData
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch

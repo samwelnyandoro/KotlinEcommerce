@@ -1,9 +1,9 @@
 package com.example.kotlinecommerce.data.utils
 
 import androidx.room.TypeConverter
+import com.example.kotlinecommerce.data.UserData
 import com.google.common.reflect.TypeToken
 import com.google.gson.Gson
-
 
 class ObjectListTypeConvertor {
 	@TypeConverter

@@ -1,9 +1,9 @@
 package com.example.kotlinecommerce.data.source.local
 
 import android.util.Log
-import com.example.kotlinecommerce.data.source.local.UserDao
 import com.example.kotlinecommerce.data.Result
-import com.example.kotlinecommerce.data.Result.*
+import com.example.kotlinecommerce.data.Result.Error
+import com.example.kotlinecommerce.data.Result.Success
 import com.example.kotlinecommerce.data.UserData
 import com.example.kotlinecommerce.data.source.UserDataSource
 import kotlinx.coroutines.CoroutineDispatcher

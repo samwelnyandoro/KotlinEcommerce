@@ -7,7 +7,6 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.example.kotlinecommerce.data.Product
 import com.example.kotlinecommerce.data.UserData
-import com.example.kotlinecommerce.data.source.local.UserDao
 import com.example.kotlinecommerce.data.utils.DateTypeConvertors
 import com.example.kotlinecommerce.data.utils.ListTypeConverter
 import com.example.kotlinecommerce.data.utils.ObjectListTypeConvertor

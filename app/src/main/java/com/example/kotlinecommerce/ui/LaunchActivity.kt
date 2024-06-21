@@ -1,14 +1,18 @@
 package com.example.kotlinecommerce.ui
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import com.example.kotlinecommerce.R
+import com.example.kotlinecommerce.data.ShoppingAppSessionManager
 
 import com.example.kotlinecommerce.ui.loginSignup.LoginSignupActivity
 
 
+@SuppressLint("CustomSplashScreen")
 class LaunchActivity : AppCompatActivity() {
 
 	override fun onCreate(savedInstanceState: Bundle?) {
