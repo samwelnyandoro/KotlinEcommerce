@@ -6,8 +6,19 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.example.kotlinecommerce.ERR_EMAIL
+import com.example.kotlinecommerce.ERR_INIT
+import com.example.kotlinecommerce.ERR_MOBILE
 import com.example.kotlinecommerce.ShoppingApplication
 import com.example.kotlinecommerce.data.UserData
+import com.example.kotlinecommerce.data.utils.LogInErrors
+import com.example.kotlinecommerce.data.utils.SignUpErrors
+import com.example.kotlinecommerce.data.utils.UserType
+import com.example.kotlinecommerce.getRandomString
+import com.example.kotlinecommerce.isEmailValid
+import com.example.kotlinecommerce.isPhoneValid
+import com.example.kotlinecommerce.ui.LoginViewErrors
+import com.example.kotlinecommerce.ui.SignUpViewErrors
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch

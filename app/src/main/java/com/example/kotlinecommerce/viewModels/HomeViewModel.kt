@@ -3,6 +3,12 @@ package com.example.kotlinecommerce.viewModels
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.*
+import com.example.kotlinecommerce.ShoppingApplication
+import com.example.kotlinecommerce.data.Product
+import com.example.kotlinecommerce.data.Result.Success
+import com.example.kotlinecommerce.data.ShoppingAppSessionManager
+import com.example.kotlinecommerce.data.UserData
+import com.example.kotlinecommerce.data.utils.StoreDataStatus
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch

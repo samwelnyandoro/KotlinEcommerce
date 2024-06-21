@@ -3,7 +3,7 @@ package com.example.kotlinecommerce.data.source
 import android.net.Uri
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-
+import com.example.kotlinecommerce.data.Product
 
 interface ProductDataSource {
 
@@ -24,7 +24,7 @@ interface ProductDataSource {
 	}
 
 	suspend fun getAllProductsByOwner(ownerId: String): Result<List<Product>> {
-		return Result.Success(emptyList())
+		return Result.success(emptyList())
 	}
 
 	suspend fun uploadImage(uri: Uri, fileName: String): Uri? {

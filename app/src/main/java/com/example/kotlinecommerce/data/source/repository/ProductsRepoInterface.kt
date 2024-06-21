@@ -2,7 +2,8 @@ package com.example.kotlinecommerce.data.source.repository
 
 import android.net.Uri
 import androidx.lifecycle.LiveData
-
+import com.example.kotlinecommerce.data.Product
+import com.example.kotlinecommerce.data.utils.StoreDataStatus
 
 interface ProductsRepoInterface {
 	suspend fun refreshProducts(): StoreDataStatus?

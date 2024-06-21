@@ -4,6 +4,12 @@ import android.content.Context
 import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
+import com.example.kotlinecommerce.data.ShoppingAppSessionManager
+import com.example.kotlinecommerce.data.UserData
+import com.example.kotlinecommerce.data.source.UserDataSource
+import com.example.kotlinecommerce.data.utils.SignUpErrors
+import com.example.kotlinecommerce.data.utils.UserType
+import com.example.kotlinecommerce.data.Result.Success
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.PhoneAuthCredential
