@@ -241,6 +241,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
 	fun deleteProduct(productId: String) {
 		viewModelScope.launch {
+
 			val delRes = async { productsRepository.deleteProductById(productId) }
 			when (val res = delRes.await()) {
 				is Success -> Log.d(TAG, "onDelete: Success")
