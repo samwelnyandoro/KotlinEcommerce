@@ -14,6 +14,7 @@ interface UserDao {
 	@Query("SELECT * FROM users WHERE mobile = :mobile")
 	suspend fun getByMobile(mobile: String): UserData?
 
+
 	@Update(entity = UserData::class)
 	suspend fun updateUser(obj: UserData)
 

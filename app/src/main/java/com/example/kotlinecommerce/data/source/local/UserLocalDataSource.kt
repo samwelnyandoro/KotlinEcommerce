@@ -22,6 +22,7 @@ class UserLocalDataSource internal constructor(
 		}
 	}
 
+
 	override suspend fun getUserById(userId: String): Result<UserData?> =
 		withContext(ioDispatcher) {
 			try {
@@ -119,6 +120,7 @@ class UserLocalDataSource internal constructor(
 				throw e
 			}
 		}
+
 
 	override suspend fun likeProduct(productId: String, userId: String) =
 		withContext(ioDispatcher) {
