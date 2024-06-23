@@ -62,7 +62,6 @@ class UserLocalDataSource internal constructor(
 				} else {
 					return@withContext Error(Exception("User Not Found"))
 				}
-
 			} catch (e: Exception) {
 				Log.d("UserLocalSource", "onGetOrders: Error Occurred, ${e.message}")
 				return@withContext Error(e)
@@ -120,7 +119,6 @@ class UserLocalDataSource internal constructor(
 				throw e
 			}
 		}
-
 
 	override suspend fun likeProduct(productId: String, userId: String) =
 		withContext(ioDispatcher) {
