@@ -22,7 +22,6 @@ class UserLocalDataSource internal constructor(
 		}
 	}
 
-
 	override suspend fun getUserById(userId: String): Result<UserData?> =
 		withContext(ioDispatcher) {
 			try {
